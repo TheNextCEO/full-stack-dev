@@ -1,0 +1,26 @@
+
+/* Says every h1 or body will have a this style */
+body {
+    background-color: #cc99ff;
+    /* color: rgb(22, 139, 247) */
+}
+h1 {
+    color: darkgreen;
+    text-align: center;
+}
+
+
+/* used when you want to use the same style in multiple places on site */
+.square{
+width: 100px;
+height: 100px;
+background-color: blue;
+margin: auto;
+}
+
+/* avoid using ID's if you can */
+/* used to interact with javascript */
+#circle{
+    color: darkred;
+    font-size: 40;
+}
